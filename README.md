@@ -2,9 +2,16 @@
 
 ## Overview
 
-This Python library facilitates the easy control of Dynamixel motors using the Dynamixel SDK within a Python environment. The library introduces two key classes: `U2D2` and `Dynamixel`. The `U2D2` class manages communication ports, ensuring unique device paths, while the `Dynamixel` class represents individual Dynamixel motors, ensuring unique motor IDs.
+This python library facilitates the easy control of Dynamixel motors using the Dynamixel SDK. The library introduces two key classes: `U2D2` and `Dynamixel`. The `U2D2` class manages communication ports, ensuring unique device paths, while the `Dynamixel` class represents individual Dynamixel motors, ensuring unique motor IDs.
 
 ## Installation 
+
+### 1. Install the dynamixel SDK 
+```bash 
+git clone git@github.com:ROBOTIS-GIT/DynamixelSDK.git
+cd DynamixelSDK/python
+pip install .
+```
 
 ### 2. Clone and install this repository
 ```bash
@@ -12,12 +19,7 @@ git clone git@github.com:nate-adkins/dynapy.git
 cd dynapy
 pip install .
 ```
-### 1. Install the dynamixel SDK 
-```bash 
-git clone git@github.com:ROBOTIS-GIT/DynamixelSDK.git
-cd DynamixelSDK/python
-pip install .
-```
+
 
 ## Example usage
 
