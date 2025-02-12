@@ -8,8 +8,8 @@ setup(
 
     ],
     author="Nathan Adkins",
-    author_email="npa00003@mix.wvu.edu",
-    description="Defines classes for controlling dynamixel motors",
+    author_email="nathanpadkins@gmail.com",
+    description="Code for creating messages to control dynamixel motors",
     license="MIT",
     keywords="actuator robotics",
     url="https://github.com/nate-adkins/dynapy",   # project homepage
