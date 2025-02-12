@@ -61,19 +61,18 @@ if __name__ == '__main__':
   ![](readme_images/dxl_product_page.png)
 3. Navigate to the control table for the new model
   ![](readme_images/example_product_page.png)
-4. Copy the control table values
+4. Copy the control table values **(Be sure to include the EEPROM Area and RAM Area Headers)**
   ![](readme_images/highlighted_example_ctrl_table.png)
-  **(Be sure to include the EEPROM Area and RAM Area Headers)**
-5. Open LibreOffice Calc
-6. Select the cell "A1"
-7. Paste the values into the sheet and maintain the formatting of the pasted text 
-8. Select "File" -> "Save As" 
-9. Select "Text CSV (.csv)" as the file type in the bottom right corner
-10. Select "dynapy/generate_ctrl_table_vals/model_ctrl_tables" as the save path
-11. Change the name of the .csv file to match the name of the motor model. The name of the .csv file will match the name of the python model class that will be generated in step 11.
-12. Click "Save"
-13. A popup will ask you to confirm the file format. Select "Use Text CSV Format".
-14. Another popup will ask you to selext field options. Set the String delimiter to be blank, then select "OK"
+6. Open LibreOffice Calc
+7. Select the cell "A1"
+8. Paste the values into the sheet and maintain the formatting of the pasted text 
+9. Select "File" -> "Save As" 
+10. Select "Text CSV (.csv)" as the file type in the bottom right corner
+11. Select "dynapy/generate_ctrl_table_vals/model_ctrl_tables" as the save path
+12. Change the name of the .csv file to match the name of the motor model. The name of the .csv file will match the name of the python model class that will be generated in step 11.
+13. Click "Save"
+14. A popup will ask you to confirm the file format. Select "Use Text CSV Format".
+15. Another popup will ask you to selext field options. Set the String delimiter to be blank, then select "OK"
 12. Now that the .csv file is in the correct format and in the right location, we can generate and add the python class to the existing classes. 
 13. Run the [generate_model_classes.py](dynapy/generate_model_classes/generate_model_classes.py) file. This will read through the .csv files (including the one you just added), and generate the model classes. 
 14. You can now import and utilize the model class!
