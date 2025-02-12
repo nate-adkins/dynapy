@@ -1,0 +1,4 @@
+build/
+dist/
+dynamixel_lib.egg-info/
+dynamixel_sdk/
